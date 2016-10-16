@@ -1,0 +1,102 @@
+/* proSilver Style Sheet Extra
+
+-------------------------------------------------*/
+/* Corners Default */
+.top-left {
+	margin-right: 9px; /* clip right corner */
+	background-image: url("{T_THEME_PATH}/images/corners.gif");
+	height: 9px; /* vertical: show first half of the image with the top-corners in it */
+	font-size: 2px; /* correct height for IE */
+}
+
+.top-right {
+	margin-top: -9px; /* to level of top-left corner */
+	margin-left: 9px; /* clip left corner */
+	background-image: url("{T_THEME_PATH}/images/corners.gif"); 
+	background-position: 100% 0; /* show bg-image starting at the right */
+	height: 9px; 
+	font-size: 2px;
+}
+
+.bottom-left {
+	margin-right: 9px; /* clip right corner */
+	background-image: url("{T_THEME_PATH}/images/corners.gif");
+	background-position: 0 -9px; /* show under half of the image */
+	height: 9px;
+	font-size: 2px;
+}
+
+.bottom-right {
+	margin-top: -9px; /* to level of bottom-left corner */
+	margin-left: 9px; /* clip left corner */
+	background-image: url("{T_THEME_PATH}/images/corners.gif"); 
+	background-position: 100% -9px; /* under half, right side */
+	height: 9px; 
+	font-size: 2px; 
+}
+
+.inside {
+	background: #F7F7F7;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.notopgap {
+	margin-top: 0;
+}
+
+.nobottomgap {
+	margin-bottom: 0;
+}
+
+
+
+/* Corners White */
+.top-left-white {
+	margin-right: 9px; /* clip right corner */
+	background-image: url("{T_THEME_PATH}/images/corners_white.gif");
+	height: 9px; /* vertical: show first half of the image with the top-corners in it */
+	font-size: 2px; /* correct height for IE */
+}
+
+.top-right-white {
+	margin-top: -9px; /* to level of top-left corner */
+	margin-left: 9px; /* clip left corner */
+	background-image: url("{T_THEME_PATH}/images/corners_white.gif"); 
+	background-position: 100% 0; /* show bg-image starting at the right */
+	height: 9px; 
+	font-size: 2px;
+}
+
+.bottom-left-white {
+	margin-right: 9px; /* clip right corner */
+	background-image: url("{T_THEME_PATH}/images/corners_white.gif");
+	background-position: 0 -9px; /* show under half of the image */
+	height: 9px;
+	font-size: 2px;
+}
+
+.bottom-right-white {
+	margin-top: -9px; /* to level of bottom-left corner */
+	margin-left: 9px; /* clip left corner */
+	background-image: url("{T_THEME_PATH}/images/corners_white.gif"); 
+	background-position: 100% -9px; /* under half, right side */
+	height: 9px; 
+	font-size: 2px; 
+}
+
+.inside-white {
+	border-left: 1px solid #DEDEDE;
+	border-right: 1px solid #DEDEDE;
+	background: #FFFFFF;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.notopgap-white {
+	margin-top: 0;
+}
+
+.nobottomgap-white {
+	margin-bottom: 0;
+}

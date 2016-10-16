@@ -1,0 +1,4 @@
+/* CSS for IE 7 */
+.attachcontent, html>body .postbody {
+	overflow: auto;
+}

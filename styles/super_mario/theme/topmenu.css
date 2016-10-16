@@ -1,0 +1,59 @@
+/* Super Mario Style
+
+*_*  Top Menu  *_*
+-------------------------------------------------*/
+
+.ddcolortabs {
+	padding: 0;
+	width: 100%;
+	background: transparent;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	margin-bottom: 0;
+	padding: 0 5px;
+	height: 21px;
+}
+
+.ddcolortabs ul {
+	font: normal 9px Arial, Verdana, sans-serif;
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.ddcolortabs li {
+	display: inline;
+	margin: 0 2px 0 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+.ddcolortabs a {
+	float: left;
+	color: #FFFFFF;
+	background: #A22D00 url("{T_THEME_PATH}/images/color_tabs_left.gif") no-repeat left top;
+	margin: 0 2px 0 0;
+	padding: 0 0 1px 3px;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+.ddcolortabs a span {
+	float: left;
+	display: block;
+	background: transparent url("{T_THEME_PATH}/images/color_tabs_right.gif") no-repeat right top;
+	padding: 6px 8px 3px 7px;
+}
+
+.ddcolortabs a span {
+	float: none;
+}
+
+.ddcolortabs a:hover {
+	background-color: #D64309;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.ddcolortabs a:hover span {
+	background-color: #D64309;
+}
