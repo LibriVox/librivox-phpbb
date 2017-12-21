@@ -98,10 +98,35 @@
 			<div class="inner">
 
 			<div id="site-description" class="site-description">
+
 				<a id="logo" class="logo" href="<!-- IF U_SITE_HOME -->{U_SITE_HOME}<!-- ELSE -->{U_INDEX}<!-- ENDIF -->" title="<!-- IF U_SITE_HOME -->{L_SITE_HOME}<!-- ELSE -->{L_INDEX}<!-- ENDIF -->"><span class="site_logo"></span></a>
+
+				<span id="header-nav-compact" class="header-nav dropdown-container responsive-menu" data-skip-responsive="true">
+					<a href="#" class="dropdown-trigger">
+						<i class="icon fa-bars fa-fw" aria-hidden="true"></i>
+					</a>
+					<div class="dropdown">
+						<div class="pointer">
+							<div class="pointer-inner"></div>
+						</div>
+						<ul class="dropdown-contents" role="menu">
+							<li class="clone"><a class="header-nav-link" href="https://librivox.org">Home Page</a></li>
+							<li class="clone"><a class="header-nav-link" href="http://wiki.librivox.org/">Guides for Listeners &amp; Volunteers (LibriVox wiki)</a></li>
+							<li class="clone"><a class="header-nav-link" href="https://librivox.org/search">Search the Catalog</a></li>
+						</ul>
+					</div>
+				</span>
+
 				<h1>{SITENAME}</h1>
-				<p>{SITE_DESCRIPTION}</p>
+
+				<ul id="header-nav-main" class="header-nav nav-main linklist">
+					<li><a class="header-nav-link" href="https://librivox.org">Home Page</a></li>
+					<li><a class="header-nav-link" href="http://wiki.librivox.org/">Guides for Listeners &amp; Volunteers (LibriVox wiki)</a></li>
+					<li><a class="header-nav-link" href="https://librivox.org/search">Search the Catalog</a></li>
+				</ul>
+
 				<p class="skiplink"><a href="#start_here">{L_SKIP}</a></p>
+
 			</div>
 
 			<!-- EVENT overall_header_searchbox_before -->
