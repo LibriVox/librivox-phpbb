@@ -17,7 +17,6 @@
 !/phpBB/language/en
 
 # Excludes all custom styles
-/phpBB/styles/*
 !/phpBB/styles/prosilver
 /phpBB/styles/prosilver/theme/*/
 !/phpBB/styles/prosilver/theme/en
