@@ -178,7 +178,7 @@ a:hover	{ text-decoration: underline; }
 .site_logo {
 	background-repeat: no-repeat;
 	display: inline-block;
-	width: 149px;
+	width: 52px;
 	height: 52px;
 }
 
@@ -1282,4 +1282,19 @@ ul.linklist:after,
 
 .dropdown .clone.hidden + li {
 	border-top: none;
+}
+
+/* LibriVox changes
+----------------------------------------*/
+
+li:not(.clone) > a.header-nav-link, li:not(.clone) > a.header-nav-link:hover {
+	color: #FFFFFF;
+}
+
+.header-nav i.fa-bars {
+	color: #FFFFFF;
+}
+
+#header-nav-compact {
+	display: none;
 }
