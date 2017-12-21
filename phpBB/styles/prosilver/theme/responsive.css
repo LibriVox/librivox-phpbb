@@ -581,3 +581,21 @@
     	width: 80px;
 	}
 }
+
+/* LibriVox modifications
+---------------------------------------- */
+
+@media (max-width: 700px) {
+
+	#header-nav-main {
+		display: none;
+	}
+
+	#header-nav-compact {
+		display: inline-block;
+		float: left;
+		clear: none;
+		margin: 5px;
+	}
+
+}
