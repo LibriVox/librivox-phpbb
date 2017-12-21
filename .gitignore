@@ -14,7 +14,6 @@
 /phpBB/language/*
 !/phpBB/language/en
 /phpBB/store/*
-/phpBB/styles/*
 !/phpBB/styles/prosilver
 !/phpBB/styles/all
 /phpBB/vendor
