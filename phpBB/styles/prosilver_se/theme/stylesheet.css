@@ -18,7 +18,7 @@ body.simple {
 }
 
 .wrap {
-	max-width: 850px;
+	max-width: 100%;
 	margin: 0 auto;
 	padding: 13px 23px;
 	border: 2px solid #FFF;
