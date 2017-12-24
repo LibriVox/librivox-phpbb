@@ -254,7 +254,7 @@ dd.option {
 	margin-bottom: 0.3em !important;
 	text-transform: none;
 	border: none;
-	font-family: "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
+	font-family: Verdana, "Trebuchet MS", Helvetica, Arial, sans-serif;
 	line-height: 125%;
 }
 
@@ -330,7 +330,7 @@ dd.option {
 	min-height: 3em;
 	overflow: hidden;
 	line-height: 1.4em;
-	font-family: "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
+	font-family: Verdana, "Trebuchet MS", "Lucida Grande", Helvetica, Arial, sans-serif;
 	font-size: 1em;
 	padding-bottom: 1px;
 }
@@ -355,7 +355,7 @@ dd.option {
 }
 
 .content p {
-	font-family: "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
+	font-family: Verdana, "Trebuchet MS", "Lucida Grande", Helvetica, Arial, sans-serif;
 	font-size: 1.2em;
 	margin-bottom: 1em;
 	line-height: 1.4em;
@@ -643,7 +643,7 @@ dl.thumbnail dt a:hover img {
 /* Post poll styles
 ----------------------------------------*/
 fieldset.polls {
-	font-family: "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
+	font-family: Verdana, "Trebuchet MS", Helvetica, Arial, sans-serif;
 }
 
 fieldset.polls dl {
