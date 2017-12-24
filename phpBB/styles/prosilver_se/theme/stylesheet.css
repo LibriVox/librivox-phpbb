@@ -93,3 +93,9 @@ li.row.bg3:hover {
 		width: auto;
 	}
 }
+
+/* LibriVox changes */
+
+.postbody h1 {
+	color: #105289;
+}
