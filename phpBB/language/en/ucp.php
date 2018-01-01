@@ -518,7 +518,7 @@ $lang = array_merge($lang, array(
 	'UCP_AUTH_LINK_UNLINK'		=> 'Unlink',
 	'UCP_COPPA_BEFORE'			=> 'Before %s',
 	'UCP_COPPA_ON_AFTER'		=> 'On or after %s',
-	'UCP_EMAIL_ACTIVATE'		=> 'Please note that you will need to enter a valid email address before your account is activated. You will receive an email at the address you provide that contains an account activation link.',
+	'UCP_EMAIL_ACTIVATE'		=> 'Please note that you will need to enter a valid email address before your account is activated. You will receive an activation email at the address you provide. <font size="+1" color="red">PLEASE READ THE EMAIL AND CAREFULLY FOLLOW THE INSTRUCTIONS.</font> We are sorry, but because of the large number of spammers who try to register on our forum, if you do not follow the instructions your account will not be activated.',
 	'UCP_JABBER'				=> 'Jabber address',
 	'UCP_LOGIN_LINK'			=> 'Set up an external account association',
 
