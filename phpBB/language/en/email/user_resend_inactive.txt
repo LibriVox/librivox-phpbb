@@ -1,19 +1,17 @@
-Subject: Welcome to "{SITENAME}"
+Subject: Action required to activate LibriVox forum account
 
-{WELCOME_MSG}
+We are having a lot of trouble with spammers and are taking extreme measures to protect our forums.
 
-Please keep this email for your records. Your account information is as follows:
+In order to activate your account, please send an email to librivox.forum@gmail.com.
+
+BE SURE TO INCLUDE YOUR FORUM USERNAME!
+
+Also, please tell us something about yourself, how you discovered LibriVox, and why you are interested in becoming a part of our forum community. Be as detailed and specific as you can, so we know you are a real volunteer. We will review your email and notify you when we activate your account.
+
+Thanks,
+
+Librivox Admin Team
 
 ----------------------------
 Username: {USERNAME}
 ----------------------------
-
-Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
-
-Please visit the following link in order to activate your account:
-
-{U_ACTIVATE}
-
-Thank you for registering.
-
-{EMAIL_SIG}
