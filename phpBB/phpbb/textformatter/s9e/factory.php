@@ -480,10 +480,6 @@ class factory implements \phpbb\textformatter\cache_interface
 			->addParameterByName('tag')
 			->addParameterByValue(preg_replace('(^\\w+:)', '', $board_url));
 		$tag->filterChain
-			->add(array($this->link_helper, 'truncate_text'))
-			->resetParameters()
-			->addParameterByName('tag');
-		$tag->filterChain
 			->add(array($this->link_helper, 'cleanup_tag'))
 			->resetParameters()
 			->addParameterByName('tag')
