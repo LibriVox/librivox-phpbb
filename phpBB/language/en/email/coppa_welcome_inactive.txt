@@ -4,13 +4,13 @@ Subject: Welcome to "{SITENAME}"
 
 In compliance with the COPPA, your account is currently inactive.
 
-Please print this message and have your parent or guardian sign and date it. Then fax it to:
+Please print this message and have your parent or guardian sign and date it. Then scan it or take a picture and email it to:
 
-{FAX_INFO}
+librivox.forum@gmail.com
 
-OR mail it to:
+If you don't have a printer, you may sign in your PDF viewer or graphics program. Get creative!
 
-{MAIL_INFO}
+If you ticked the underage box by accident, don't worry -- just email librivox.forum@gmail.com and explain, and we'll fix your account. Be sure to include your username.
 
 ------------------------------ CUT HERE ------------------------------
 Permission to participate at "{SITENAME}" - {U_BOARD}
@@ -32,8 +32,7 @@ Date: _______________
 
 ------------------------------ CUT HERE ------------------------------
 
-
-Once the administrator has received the above form via fax or regular mail, your account will be activated.
+Once the administrator has received the above form via email, your account will be activated.
 
 Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
 
