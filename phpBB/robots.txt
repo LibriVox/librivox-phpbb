@@ -1,5 +1,7 @@
 User-agent: AI2Bot
 User-agent: Ai2Bot-Dolma
+User-agent: Aliyun
+User-agent: AliyunSecBot
 User-agent: Amazonbot
 User-agent: anthropic-ai
 User-agent: Applebot
@@ -14,6 +16,7 @@ User-agent: cohere-ai
 User-agent: cohere-training-data-crawler
 User-agent: Crawlspace
 User-agent: Diffbot
+User-agent: Dotbot
 User-agent: DuckAssistBot
 User-agent: FacebookBot
 User-agent: FriendlyCrawler
@@ -27,6 +30,7 @@ User-agent: ICC-Crawler
 User-agent: ImagesiftBot
 User-agent: img2dataset
 User-agent: ISSCyberRiskCrawler
+User-agent: iVoox Global Podcasting Service
 User-agent: Kangaroo Bot
 User-agent: Meta-ExternalAgent
 User-agent: Meta-ExternalFetcher
@@ -37,11 +41,13 @@ User-agent: PanguBot
 User-agent: PerplexityBot
 User-agent: PetalBot
 User-agent: Scrapy
+User-agent: SemanticScholarBot
 User-agent: SemrushBot-OCOB
 User-agent: SemrushBot-SWA
 User-agent: Sidetrade indexer bot
 User-agent: Timpibot
 User-agent: VelenPublicWebCrawler
 User-agent: Webzio-Extended
+User-agent: YisouSpider
 User-agent: YouBot
 Disallow: /
