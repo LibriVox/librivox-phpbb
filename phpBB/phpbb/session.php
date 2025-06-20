@@ -772,6 +772,29 @@ class session
 			}
 		}
 
+
+		/**
+		 * Event to alter session information before it is written to the database.
+		 * Setting use_dummy_session to a true-ish value will skip both writing to the database and calling the core.session_create_after event.
+		 *
+		 * @event pacifist.session_create_before_db
+		 * @var	array	sql_ary				Associative array of session properties
+		 * @var	bool	is_bot				Whether the visitor is known to be a bot (read-only)
+		 * @var	bool	is_registered		Whether the visitor is a registered user (read-only)
+		 * @var	bool	use_dummy_session	Whether to create a session that will not be saved to the database (also skips calling core.session_create_after)
+		 */
+		$is_bot = $this->data['is_bot'];
+		$is_registered = $this->data['is_registered'];
+		$use_dummy_session = false;
+		$vars = array('sql_ary', 'is_bot', 'is_registered', 'use_dummy_session');
+		extract($phpbb_dispatcher->trigger_event('pacifist.session_create_before_db', compact($vars)));
+		unset($session_data);
+		if ($use_dummy_session)
+		{
+			$this->session_id = $this->data['session_id'] = '';
+			return true;
+		}
+
 		// Since we re-create the session id here, the inserted row must be unique. Therefore, we display potential errors.
 		// Commented out because it will not allow forums to update correctly
 //		$db->sql_return_on_error(false);
