@@ -605,9 +605,21 @@ class session
 			$bot = false;
 		}
 
+
+		/**
+		 * Event to override SID redirect rules
+		 *
+		 * @event pacifist.sid_redirect_override
+		 * @var	bool	redirect_non_bot	Whether to redirect away from SID URLs, even if the visitor is not a known bot.
+		 * @var	mixed	user_id
+		 */
+		$redirect_other = false;
+		$vars = array('redirect_other', 'user_id');
+		extract($phpbb_dispatcher->trigger_event('pacifist.sid_redirect_override', compact($vars)));
+
 		// Bot user, if they have a SID in the Request URI we need to get rid of it
 		// otherwise they'll index this page with the SID, duplicate content oh my!
-		if ($bot && isset($_GET['sid']))
+		if (($bot || $redirect_other) && isset($_GET['sid']))
 		{
 			send_status_line(301, 'Moved Permanently');
 			redirect(build_url(array('sid')));
