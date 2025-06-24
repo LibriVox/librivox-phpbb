@@ -450,6 +450,12 @@ class user extends \phpbb\session
 
 		$this->is_setup_flag = true;
 
+		/**
+		* Execute code at the end of user setup (late enough to trigger login_box without errors)
+		*
+		* @event pacifist.user_setup_after_flagged
+		*/
+		$phpbb_dispatcher->dispatch('pacifist.user_setup_after_flagged');
 		return;
 	}
 
